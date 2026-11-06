@@ -1,1 +1,1 @@
-# Shop - version de A
+# Shop - A et B
