@@ -1,11 +1,19 @@
-name: CI
+﻿name: CI
+
 on:
   push:
     branches: [main]
   pull_request:
+
 jobs:
   test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: devops/shop
+    defaults:
+      run:
+        working-directory: devops/shop
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
