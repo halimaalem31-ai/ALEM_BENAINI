@@ -1,1 +1,1 @@
-# Shop - A et B
+![CI](https://github.com/halimaalem31-ai/ALEM_BENAINI/actions/workflows/ci.yml/badge.svg)
