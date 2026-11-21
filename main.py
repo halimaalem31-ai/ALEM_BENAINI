@@ -1,4 +1,4 @@
-from cart import total, average
+from cart import average, total
 
 cart = [10, 20]
 print("Total:", total(cart))
