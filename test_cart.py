@@ -1,8 +1,7 @@
 import pytest
 
-from cart import apply_discount, average, shipping, total
+from cart import TAX_RATE, apply_discount, average, shipping, total
 from stats import most_expensive
-from cart import TAX_RATE, total, shipping   # garder les autres noms déjà présents
 
 
 def test_average():
